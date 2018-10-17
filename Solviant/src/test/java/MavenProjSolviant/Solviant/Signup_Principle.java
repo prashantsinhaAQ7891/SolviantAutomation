@@ -17,14 +17,13 @@ public class Signup_Principle extends TestBase1 {
 	{
 		init();
 	}
-	
 	@Test
 	public void signup ()throws Exception
 	{
 		pageObj=new signup_principle(driver);
 		pageObj.startProcess1("full_name","email","password","cpassword");
 		Select drp=new Select(driver.findElement(By.name("user_type")));
-		drp.selectByVisibleText("Give a Solution");
+		drp.selectByVisibleText("Find a Solution");
 		pageObj.startProcess2();		
 	}	
 }

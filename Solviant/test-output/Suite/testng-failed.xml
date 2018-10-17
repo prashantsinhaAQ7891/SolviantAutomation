@@ -8,13 +8,6 @@
           <include name="signup"/>
         </methods>
       </class> <!-- MavenProjSolviant.Solviant.Signup_Principle -->
-      <class name="MavenProjSolviant.Solviant.LoginTest">
-        <methods>
-          <include name="openBrowser"/>
-          <include name="Login"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- MavenProjSolviant.Solviant.LoginTest -->
     </classes>
   </test> <!-- parallel(failed) -->
 </suite> <!-- Failed suite [Suite] -->
